@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "golden-safe"
+version = "0.1.0"
+description = ""
+authors = ["Gosuto Inzasheru <gosuto@inzasheru.email>"]
+readme = "README.md"
+packages = [{include = "golden_safe"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+eth-brownie = "^1.19.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

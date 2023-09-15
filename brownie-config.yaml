@@ -1,0 +1,6 @@
+autofetch_sources: true
+
+networks:
+  default: base-fork
+
+dotenv: .env
